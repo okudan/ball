@@ -10,7 +10,7 @@
   -	**‘Top’** klasörü içerisindeki **‘Top’** adlı sahneyi açın. Buradaki **‘Top’** adlı objeye basarak **‘Inspector’** da sahip olduğu **‘Component’** ları inceleyin.   
   -	Geliştirmeniz için **‘Hareket’** adlı bir kod oluşturulmuş durumdadır. Kodu açarak inceleyin. Öncelikle alınan **‘Input’** u ekrana yazdırmak için gerekecek eklemeleri koda yapın. Ekrana yazdırma için Unity’nin UI sistemi kullanılacaktır. Bu sistemi kullanabilmek için kodun başına
 	```
-	Using UnityEngine.UI;
+	using UnityEngine.UI;
 	```
 	satırını eklemeniz gerekmektedir. Ardından **public** olacak şekilde text objelerini **‘GameObject’** olarak tanımlayın ve bunları Unity’deki sahnede **‘Canvas’** içindeki **‘Horizontal’** ve **‘Vertical’** text objeleri ile bağlayın. Bir objede bulunan bir **‘Component’** ın değişkenlerine başka bir **‘Component’** ın ulaşabilmesi için Unity’de aşağıdaki kullanım mevcuttur
 	```
