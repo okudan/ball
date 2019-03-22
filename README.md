@@ -12,22 +12,22 @@
 	```
 	Using UnityEngine.UI;
 	```
-  satırını eklemeniz gerekmektedir. Ardından **public** olacak şekilde text objelerini **‘GameObject’** olarak tanımlayın ve bunları Unity’deki sahnede **‘Canvas’** içindeki **‘Horizontal’** ve **‘Vertical’** text objeleri ile bağlayın. Bir objede bulunan bir **‘Component’** ın değişkenlerine başka bir **‘Component’** ın ulaşabilmesi için Unity’de aşağıdaki kullanım mevcuttur
+	satırını eklemeniz gerekmektedir. Ardından **public** olacak şekilde text objelerini **‘GameObject’** olarak tanımlayın ve bunları Unity’deki sahnede **‘Canvas’** içindeki **‘Horizontal’** ve **‘Vertical’** text objeleri ile bağlayın. Bir objede bulunan bir **‘Component’** ın değişkenlerine başka bir **‘Component’** ın ulaşabilmesi için Unity’de aşağıdaki kullanım mevcuttur
 	```
 	obje1.GetComponent <ulaşılacakcomponent> ().değişken
 	```
-  Oluşturduğumuz text **‘Obje’** lerinin text **‘Component’** ının text **‘Değişken’** ine ulaşmamız gerekmektedir. Bunun için gereken kod
+	Oluşturduğumuz text **‘Obje’** lerinin text **‘Component’** ının text **‘Değişken’** ine ulaşmamız gerekmektedir. Bunun için gereken kod
 	```
 	obje1.GetComponent<Text>().text=””+hareket.x;
 	```
-  şeklinde olacaktır. ```“”+``` kullanımı **‘float’** türündeki ```hareket.x``` değişkenini **‘string’** formatına dönüştürmek için kullanılmaktadır. Gerekli kodları **‘Update’** içine yazarak sırasıyla ```hareket.x``` ve ```hareket.z``` ye eşitleyin. Play tuşuna basarak ok tuşlarını kullanın ve sonucu gözlemleyin.
+	şeklinde olacaktır. ```“”+``` kullanımı **‘float’** türündeki ```hareket.x``` değişkenini **‘string’** formatına dönüştürmek için kullanılmaktadır. Gerekli kodları **‘Update’** içine yazarak sırasıyla ```hareket.x``` ve ```hareket.z``` ye eşitleyin. Play tuşuna basarak ok tuşlarını kullanın ve sonucu gözlemleyin.
   
   -	**‘Update’** içerisinde **‘GetComponent’** ile **‘RigidBody’** **‘Component’**ına erişin ve içerisinde bulunan ```AddForce()``` fonksiyonunu tanımlanmış **hareket** vektörü ile kullanarak küreyi hareket ettiren kodu yazın.
   -	**‘Update’** bir **if** içerisine 
 	```
 	Input.GetKeyDown(KeyCode.Space)
 	```
-  yazarak **‘space’** tuşuna basıldığında çalışacak şekilde topu zıplatacak bir kod yazın. **‘Unity’** içerisindeki **‘Floor’** objesinin **tag** ı olmak üzere **‘Tag’** bölmesine tıklayarak **‘Yer’** adında yeni bir tag oluşturun. Yazılmış olan kodun altındaki bölümde görülebileceği üzere hareket fonksiyonu cismin dokunduğu cismin tag’i **‘Yer’** ise **‘yerde’** değişkenini **‘true’** olarak değiştirmektedir. Siz de kodun yalnızca bu değişken **‘true’** iken çalışmasını sağlayın ve zıpladıktan sonra bu değişkeni **‘false’** yaparak havada iken tekrar zıplamayı engelleyin.
+	yazarak **‘space’** tuşuna basıldığında çalışacak şekilde topu zıplatacak bir kod yazın. **‘Unity’** içerisindeki **‘Floor’** objesinin **tag** ı olmak üzere **‘Tag’** bölmesine tıklayarak **‘Yer’** adında yeni bir tag oluşturun. Yazılmış olan kodun altındaki bölümde görülebileceği üzere hareket fonksiyonu cismin dokunduğu cismin tag’i **‘Yer’** ise **‘yerde’** değişkenini **‘true’** olarak değiştirmektedir. Siz de kodun yalnızca bu değişken **‘true’** iken çalışmasını sağlayın ve zıpladıktan sonra bu değişkeni **‘false’** yaparak havada iken tekrar zıplamayı engelleyin.
 
   
   -	Yazdığınız kodu GitHub’ınıza yükleyerek mail atın.
