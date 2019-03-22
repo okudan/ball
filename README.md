@@ -18,7 +18,7 @@
 	```
 	Oluşturduğumuz text **‘Obje’** lerinin text **‘Component’** ının text **‘Değişken’** ine ulaşmamız gerekmektedir. Bunun için gereken kod
 	```
-	obje1.GetComponent<Text>().text=””+hareket.x;
+	obje1.GetComponent <Text> ().text= “” + hareket.x;
 	```
 	şeklinde olacaktır. ```“”+``` kullanımı **‘float’** türündeki ```hareket.x``` değişkenini **‘string’** formatına dönüştürmek için kullanılmaktadır. Gerekli kodları **‘Update’** içine yazarak sırasıyla ```hareket.x``` ve ```hareket.z``` ye eşitleyin. Play tuşuna basarak ok tuşlarını kullanın ve sonucu gözlemleyin.
   
