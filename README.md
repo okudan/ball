@@ -31,4 +31,4 @@
 
   
   -	Yazdığınız kodu GitHub’ınıza yükleyerek mail atın.
-  -	[Teaser](https://www.youtube.com/watch?v=ssIYDJRGDeU&list=PLSmWeUDtr9fDKXL0UDaCEFxkb9fbQEOZH&index=3)
+	- ***[Teaser](https://www.youtube.com/watch?v=ssIYDJRGDeU&list=PLSmWeUDtr9fDKXL0UDaCEFxkb9fbQEOZH&index=3)***
