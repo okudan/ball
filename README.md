@@ -4,7 +4,7 @@
 
 
 
-  -	Başlamak için https://github.com/okudan/ball adresinden **‘Top’** kasörünü Unity'deki projenizin **‘Assets’** klasörü içine atın.
+  -	Başlamak için https://github.com/okudan/ball adresinden **‘Assets’** kasörünün içerisindekileri Unity'deki projenizin **‘Assets’** klasörü içine atın.
   -	Bu derste Unity içerisinde bir küreyi hareket ettirme kodu yazılacaktır. Unity’de objeler **‘Component’** adı verilen **‘Class’** ları içerisinde bulundurmaktadır. **‘Component’** lar tek başlarına veya bir arada çalışarak pozisyon, fizik, çizim, etkileşim gibi belirli görevleri yerine getiren parçalardır. Unity pek çok hazır **‘Component’** sunduğu gibi sıfırdan yazılmasına da izin vermektedir. Bu sayede istenilen her şeyin Unity içerisinde yapılması mümkün olmaktadır.
   
   -	**‘Top’** klasörü içerisindeki **‘Top’** adlı sahneyi açın. Buradaki **‘Top’** adlı objeye basarak **‘Inspector’** da sahip olduğu **‘Component’** ları inceleyin.   
