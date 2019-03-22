@@ -23,7 +23,7 @@
 	şeklinde olacaktır. ```“” +``` kullanımı **‘float’** türündeki ```hareket.x``` değişkenini **‘string’** formatına dönüştürmek için kullanılmaktadır. Gerekli kodları **‘Update’** içine yazarak sırasıyla ```hareket.x``` ve ```hareket.z``` ye eşitleyin. Play tuşuna basarak ok tuşlarını kullanın ve sonucu gözlemleyin.
   
   -	**‘Update’** içerisinde **‘GetComponent’** ile **‘RigidBody’** **‘Component’** ına erişin ve içerisinde bulunan ```AddForce()``` fonksiyonunu tanımlanmış **hareket** vektörü ile kullanarak küreyi hareket ettiren kodu yazın.
-  -	**‘Update’** te bir **if** içerisine 
+  -	**‘Update’** te **AddForce** satırından önce bir **if** içerisine 
 	```
 	Input.GetKeyDown(KeyCode.Space)
 	```

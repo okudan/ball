@@ -13,7 +13,7 @@ public class Hareket : MonoBehaviour
     
     void Start()
     {
-        
+        yerde = true;
     }
     
     void Update()
@@ -27,9 +27,9 @@ public class Hareket : MonoBehaviour
         hareket = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnCollisionEnter(Collision other)
     {
-        if (other.tag == "Yer")
+        if (other.gameObject.tag == "Yer")
         {
             yerde = true;
         }
